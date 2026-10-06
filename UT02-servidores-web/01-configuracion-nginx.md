@@ -202,8 +202,8 @@ En este documento hemos usado rutas relativas, empleando `.` para definir dónde
 * En Linux / macOS / WSL, se usa $(pwd) para insertar la ruta actual dentro de un comando.
 * En Windows PowerShell, se usa ${PWD} (con llaves y mayúsculas)
 
-En Docker, pwd es muy útil cuando haces bind mounts o volúmenes, porque Docker necesita rutas absolutas para saber qué carpeta del host montar dentro del contenedor. Aunque de momento nos ha servido el `.`, es más idiomático y fiable usar el `$(pwd)`. Con este comando, sin embargo, Docker puede tener problemas interpretando las mayúsculas y las minúsculas. Es por ello que debes envolver las direcciones entre comillas, como por ejemplo `"$(pwd)/volumes-nginx/conf/nginx:/etc/nginx"`. 
+En Docker, pwd es muy útil cuando haces bind mounts o volúmenes, porque Docker necesita rutas absolutas para saber qué carpeta del host montar dentro del contenedor. Aunque de momento nos ha servido el `.`, es más idiomático y fiable usar el `$(pwd)`. Con este comando, sin embargo, Docker puede tener problemas interpretando las mayúsculas y las minúsculas. Es por ello que debes envolver las direcciones entre comillas, como por ejemplo `"$(pwd)/volumes-nginx/conf/nginx:/etc/nginx"`. Aparte, el comando varía según el sistema operativo.
 
-A partir de ahora, usa las rutas relativas para pruebas rápidas, pero emplea `$(pwd)` en entornos reales y automatizados, como Docker Compose.
+A partir de ahora, usa las rutas relativas para pruebas rápidas, pero emplea `$(pwd)` en entornos reales y automatizados, como Docker Compose. Si tienes algún problema, continúa usando `./`, pero documéntalo en la memoria.
 
-> **ACTIVIDAD 3:** Crea un entorno de trabajo para gestionar un servidor web nginx a través de Docker de la forma vista hasta ahora, con los volúmenes bindeados para trabajar cómodamente y registra los pasos en capturas de pantalla. Usa $(pwd).
+> **ACTIVIDAD 3:** Crea un entorno de trabajo para gestionar un servidor web nginx a través de Docker de la forma vista hasta ahora, con los volúmenes bindeados para trabajar cómodamente y registra los pasos en capturas de pantalla. Usa $(pwd) si puedes.
