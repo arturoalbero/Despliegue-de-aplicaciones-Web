@@ -41,7 +41,7 @@ alumno123:$apr1$eECVVovP$lT2DuowtRBqwoZsoPKDgy/
 
 ```
 
-Para hacer pruebas con contraseñas, es una buena idea **usar el navegador en modo privado o oculto**, porque si no el inicio de sesión se quedará almacenado.
+Para hacer pruebas con contraseñas, es una buena idea **usar el navegador en modo privado o oculto**, porque, si no, el inicio de sesión se quedará almacenado.
 
 
 > **ACTIVIDAD 1**
@@ -78,8 +78,6 @@ Para editar la clave, debemos borrar primero el usuario y después añadirlo con
 > - Registra a 3 usuarios diferentes
 > - Intenta acceder con cada uno de ellos
 > - Intenta acceder con un usuario no registrado
-
-
 
 ## 2. Mecanismos de control de acceso al servidor
 
@@ -125,8 +123,3 @@ La localización `/private/` se configura para que permita acceder a cualquier o
 Tanto `allow` como `deny` admiten como valor la palabra `all`, una red (como en el ejemplo) o una IP de un equipo concreto. Es conveniente aplicar antes los apply que los deny.
 
 **Cuando usamos NGINX dentro de Docker (o cualquier otra imagen), la IP, los mensajes se comunican con el contenedor a través de una red interna creada de forma automática**, estableciendo como origen del mensaje la IP `192.168.65.1`. Por lo tanto, para poder hacer las pruebas correctamente, **debemos lanzar NGINX sin usar Docker**, como hicimos en la práctica de la Unidad de Programación 1.
-
-
-
-
-
