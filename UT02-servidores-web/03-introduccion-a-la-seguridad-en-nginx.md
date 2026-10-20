@@ -16,6 +16,15 @@ auth_basic "Mensaje de seguridad - Autenticación requerida";
 auth_basic_user_file /etc/nginx/.htpasswd;
 ```
 
+Si lo pusiéramos en el raíz, quedaría algo así:
+```nginx
+location / {
+            auth_basic "Mensaje de seguridad - Autenticación requerida";
+            auth_basic_user_file /etc/nginx/.htpasswd;
+            # Las líneas que necesites
+}
+```
+
 **Gracias a Docker, no es necesario instalar nada.** Podemos usar un contenedor temporal con Apache HTTPD, que ya trae el programa que necesitamos (htpasswd). Con este comando, añadimos un suario y extraemos el archivo `.htpasswd` del contenedor, que se borra al completar la operación.
 
 ```bash
