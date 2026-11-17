@@ -143,6 +143,8 @@ Sigue [**este tutorial**](https://docs.railway.com/quick-start#deploying-your-pr
 
 Sigue las indicaciones de StartDeploying. Conéctate con tu cuenta de github, dile que tienes tu propio código y dale acceso al repositorio donde tengas tu imagen de docker que quieres desplegar. Al ser un servicio tan especializado, el proceso es muy rápido y directo.
 
+> **ACTIVIDAD:** Sube la misma aplicación que subiste con Render a SnapDeploy.
+
 ## Supabase
 
 [**Supabase**](https://supabase.com/) es un servicio solo para servidores de gestores de bases de datos PostgreSQL. Sigue los pasos, similares a los anteriores. Crea tu organización y tu proyecto. Eso te dará una base de datos online a la que podrás conectarte desde cualquier otro servicio.
