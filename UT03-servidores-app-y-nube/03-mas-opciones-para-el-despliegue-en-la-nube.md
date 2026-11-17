@@ -116,7 +116,22 @@ Railway es similar a Render. [**Conéctate a la página web de Railway**](https:
 
 Sigue [**este tutorial**](https://docs.railway.com/quick-start#deploying-your-project---from-a-docker-image) para poder subir la misma web que habías subido en Render.
 
-> **ACTIVIDAD:** Completa el tutorial y documéntalo
+- Crea un nuevo proyecto y elige uno de Dockerimage.
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+- Puedes borrar los proyectos que no uses en la zona de peligro, si te equivocas en algo:
+
+![alt text](image-11.png)
+
+- Después, introduce la URL donde está tu dockerfile. Si está subido a Docker Hub, puedes subir simplemente la información de la imagen.
+
+- Añade un root directory (por ejemplo `/`) y despliega el dockerfile. Si falla, puedes ir a Details y que ejecute un diagnóstico. Si tienes suerte, te propone una solución
+
+> **ACTIVIDAD:** Sube la misma aplicación que subiste con Render a Railway.
+
+> **ADVERTENCIA**: Railway ofrece 30 días para probar $5 en créditos, pero el plan gratuito solo incluye, pasados esos 30 días, $1 de créditos. 
 
 ## SnapDeploy
 
