@@ -129,12 +129,34 @@ Sigue [**este tutorial**](https://docs.railway.com/quick-start#deploying-your-pr
 
 - Añade un root directory (por ejemplo `/`) y despliega el dockerfile. Si falla, puedes ir a Details y que ejecute un diagnóstico. Si tienes suerte, te propone una solución
 
+- Finalmente, en la sección de Networking podemos crear una dirección para poder acceder al proyecto desplegado:
+
+![alt text](image-12.png)
+
 > **ACTIVIDAD:** Sube la misma aplicación que subiste con Render a Railway.
 
 > **ADVERTENCIA**: Railway ofrece 30 días para probar $5 en créditos, pero el plan gratuito solo incluye, pasados esos 30 días, $1 de créditos. 
 
 ## SnapDeploy
 
+[**SnapDeploy**](https://snapdeploy.dev/) está especializada en desplegar en la web aplicaciónes preparadas para funcionar en Docker.
+
+Sigue las indicaciones de StartDeploying. Conéctate con tu cuenta de github, dile que tienes tu propio código y dale acceso al repositorio donde tengas tu imagen de docker que quieres desplegar. Al ser un servicio tan especializado, el proceso es muy rápido y directo.
+
 ## Supabase
 
-## MongoDB
+[**Supabase**](https://supabase.com/) es un servicio solo para servidores de gestores de bases de datos PostgreSQL. Sigue los pasos, similares a los anteriores. Crea tu organización y tu proyecto. Eso te dará una base de datos online a la que podrás conectarte desde cualquier otro servicio.
+
+> **ACTIVIDAD:** Crea una base de datos con Supabase. Utiliza dBeaver para conectarte a ella, crear una tabla, insertar un registro y mostrarlo con un select.
+
+## Atlas MongoDB
+
+[**Atlas MongoDB**](https://www.mongodb.com/es/products/platform/atlas-database) es similar a Supabase, pero con la base de datos no relacional MongoDB.
+
+![alt text](image-13.png)
+
+Elige la capa gratuita y crea un clúster de forma gratuita. Para registrarte puedes crear una cuenta o vincular una de google (esta vez no podremos usar la de github).
+
+Una vez creada, te dará los datos y podrás conectarte con el método que elijas, ya sea con tu propia aplicación o con algunos servicios que te indica. Guarda el nombre de usuario y el password para poder realizar la conexión.
+
+> **ACTIVIDAD:** Crea una base de datos con Atlas MongoDB. Utiliza dBeaver para conectarte a ella, crear una tabla, insertar un registro y mostrarlo con un select.
