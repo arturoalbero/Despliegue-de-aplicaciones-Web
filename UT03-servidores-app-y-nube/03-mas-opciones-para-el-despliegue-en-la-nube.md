@@ -102,6 +102,14 @@ Cada vez que hagas un nuevo *commit* y *push* a la rama configurada, GitHub Page
 
 ## Netlify
 
+Netlify es una plataforma de despliegue que permite desplegar estático, aunque tiene opciones para bases de datos y una gran cantidad de aplicaciones de inteligencia artificial. El proceso de creación de tu sitio web es muy similar (si no igual) al de Vercel. Para empezar, [**conéctate a la web de Netlify**](https://www.netlify.com/) y pulsa en `Start building`. De nuevo, inicia sesión con, por ejemplo, tu cuenta de Github.
+
+Puedes sincronizar un repositorio de github con Netlify y darle acceso.
+
+> **ACTIVIDAD:** Sube una página de las anteriores a Netlify.
+
+> **ACTIVIDAD:** Analiza las ventajas, inconvenientes y cosas comunes que tienen estas tres plataformas de cara a tu posible futuro proyecto intermodular.
+
 ## Railway
 
 ## SnapDeploy
