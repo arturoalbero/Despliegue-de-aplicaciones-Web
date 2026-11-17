@@ -112,6 +112,12 @@ Puedes sincronizar un repositorio de github con Netlify y darle acceso.
 
 ## Railway
 
+Railway es similar a Render. [**Conéctate a la página web de Railway**](https://railway.com/) y clica en Deploy. Conviene también que sincronicemos nuestros repositorios de Github, para poder desplegar directamente desde ellos.
+
+Sigue [**este tutorial**](https://docs.railway.com/quick-start#deploying-your-project---from-a-docker-image) para poder subir la misma web que habías subido en Render.
+
+> **ACTIVIDAD:** Completa el tutorial y documéntalo
+
 ## SnapDeploy
 
 ## Supabase
